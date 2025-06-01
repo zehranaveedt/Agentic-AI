@@ -1,0 +1,17 @@
+[project]
+name = "litellm-01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zehranaveedt", email = "162749372+zehranaveedt@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+litellm-01 = "litellm_01:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
